@@ -1,0 +1,19 @@
+[bootstrap]
+main_collection = /main/main.collectionc
+render = /render/render.renderc
+
+[script]
+shared_state = 1
+
+[display]
+width = 512
+height = 512
+
+[android]
+input_method = HiddenInputField
+
+[project]
+title = GPU
+dependencies#0 = https://github.com/rgrams/rendercam/archive/1.0.3.zip
+dependencies#1 = https://github.com/britzl/defold-orthographic/archive/master.zip
+
